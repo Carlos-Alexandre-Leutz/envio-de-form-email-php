@@ -1,0 +1,26 @@
+   <form action="$PHP_SELF.php" method="POST">
+
+
+            <input placeholder="    Seu nome" type="text" name="nome">
+            <div class="conteiner-form">
+                <input class="email" placeholder="    Seu e-mail" type="text" name="email">
+                <input class="telefone" placeholder="    Seu telefone" type="text" name="telefone">
+            </div>
+            <select name="assunto">
+               <option value="Nenhum valor foi selecionado">Sobre o que deseja falar?</option>
+               <option value="Financeiro">Financeiro</option>
+               <option value="Comercial">Comercial</option>
+               <option value="Manutenção">Manutenção</option>
+           </select>
+
+
+
+            <textarea placeholder="    Deixe sua mensagem" type="text" name="mensagem"></textarea>
+
+            <div class="d-flex justify-content-end">
+                <button type="submit" name="BTEnvia"> <img src="/root/img/icones/seta-enviar.png" alt="">Pode enviar!</button>
+            </div>
+            <!--<input type="reset" name="BTApaga" value="Apagar">-->
+
+
+        </form>
