@@ -12,17 +12,18 @@ if (isset($_POST['BTEnvia'])) {
  
  //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
  //==================================================== 
- $email_remetente = "contato@portoflexconexoes.com"; // deve ser uma conta de email do seu dominio 
+ $email_remetente = "contato@seudominio.com"; // deve ser uma conta de email do seu dominio 
  //====================================================
  
  //Configurações do email, ajustar conforme necessidade
  //==================================================== 
- $email_destinatario = "leutzeleutz@gmail.com"; // pode ser qualquer email que receberá as mensagens
+ $email_destinatario = "emailDeDestino@gmail.com"; // pode ser qualquer email que receberá as mensagens
  $email_reply = "$email"; 
  $email_assunto = "formulario de contato em portoflexconexoes.com "; // Este será o assunto da mensagem
  //====================================================
  
- //Monta o Corpo da Mensagem
+ //Monta o Corpo da Mensagem adicione quantas quiser adicione quantas quiser
+ //So lembre de adicionar a variavel corespondente no inicio do arquivo
  //====================================================
  $email_conteudo = "Nome = $nome \n"; 
  $email_conteudo .= "Email = $email \n";
